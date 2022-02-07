@@ -1,0 +1,117 @@
+:root{
+    --color-primary:#a597e7;
+    --color-secondary:#6c757d;
+    --color-success:rgb(235, 235, 45);
+    --color-info:rgb(40, 212, 212);
+    --color-warning:orange;
+    --color-danger:red;
+    --color-light:white;
+    --color-dark:black;
+    --color-white:white;
+    --color-cozy:rgb(252, 158, 173);
+    --color-transparent:transparent;
+    --color-border:#dee2e6;
+    --color-dark-trasnparent: rgba(12, 12, 12, 0.089);
+
+    --display-xxs: 1rem;
+    --display-xs: 1.4rem;
+    --display-sm: 1.6rem;
+    --display-md: 1.8rem;
+    --display-lg: 2rem;
+    --display-xl: 2.5rem;
+    --display-xxl: 3rem;
+
+    --line-height-sm: 1rem;
+    --line-height-md: 1.6rem;
+    --line-height-lg: 3rem;
+
+    --distance-0: 0rem;
+    --distance-1: .25rem;
+    --distance-2: .5rem;
+    --distance-3: .75rem;
+    --distance-4: 1rem;
+    --distance-5: 1.25rem;
+    --distance-6: 1.5rem;
+    --distance-7: 1.75rem;
+
+    --shadow-small-light: .15rem .15rem 0 rgba(0, 0, .1);
+    --shadow-large-light: .25rem .25rem 0 rgba(0, 0, .1); 
+    
+    --border-xs-white: 0.1rem solid var(--color-white);
+    --border-xs: .1rem solid var(var(--color-light));
+    --borderd-sm: .2rem solid var(var(--color-light));
+    --border-lg: .4rem solid var(var(--color-white));
+
+    --border-radius-sm: .25rem; 
+    --border-success: .2rem solid var(--border-color-success);
+    --border-transparent: .1 solid var((--color-transparent));
+
+
+ } 
+
+ *{
+     margin: 0px;
+     padding: 0;
+ }
+ 
+ html{
+     box-sizing: border-box;
+     font-size: 62.5%; /* 1 rem = 16 px (default) so vi fixar att det blir 10 
+     istället genom att dela 10/16 = 62.5% och lägger in det på font siza*/
+ }
+
+ *,
+ *::before
+ *::after{
+     box-sizing: inherit;
+ }
+
+ .h1, .h2, .h3, .h4, .h5, .h6 , h1 , h2, h3, h4, h5 ,h6 {font-family: "dosic" , "open Sans" sans-serif; font-weight: 700; letter-spacing: .05rem ; }
+ .h1, h1 {font-size: 3.5rem ;}
+ 
+/* color for backgrounds and button */
+
+
+.bg-primary, .btn-primary {background-color: var(--color-primary);}
+.bg-secondary, .btn-secondary {background-color: var(--color-secondary);}
+.bg-sucess, .btn-sucess {background-color: var(--color-success);}
+.bg-info, .btn-info {background-color: var(--color-info);}
+.bg-warning, .btn-warning {background-color: var(--color-warning);}
+.bg-danger, .btn-danger {background-color: var(--color-danger);}
+.bg-light, .btn-light {background-color: var(--color-light);}
+.bg-dark, .btn-dark {background-color: var(--color-dark);}
+.bg-white, .btn-white {background-color: var(--color-white);}
+.bg-cozy, .btn-cozy {background-color: var(--color-cozy);}
+.bg-transparent, .btn-transparent {background-color: var(--color-transparent);}
+.bg-border, .btn-border {background-color: var(--color-border);}
+.bg-dark-transparent, .btn-dark-transparent {background-color: var(--color-dark-trasnparent);}
+
+
+/* text color*/
+
+.text-primary{color:var(--color-primary); }
+.text-secondary{color:var(--color-secondary); }
+.text-sucess{color:var(--color-success); }
+.text-info{color:var(--color-info); }
+.text-warning{color:var(--color-warning); }
+.text-danger{color:var(--color-danger); }
+.text-light{color:var(--color-light); }
+.text-dark{color:var(--color-dark); }
+.text-white{color:var(--color-white); }
+.text-cozy{color:var(--color-cozy); }
+.text-transparent{color:var(--color-transparent); }
+.text-border{color:var(--color-border); }
+.text-dark-transparent{color:var(--color-dark-trasnparent); }
+
+/* border colour*/
+
+.border-color-primary{color: var(--color-primary)!important; }
+.border-color-secondary{color:var(--color-secondary)!important;}
+.border-color-sucess{color: var(--color-success)!important;}
+.border-color-info{color: var(--color-info)!important;}
+.border-color-wanrning{color: var(--color-warning)!important;}
+.border-color-danger{color: var(--color-danger)!important;}
+.border-color-light{color: var(--color-light)!important;}
+.border-color-dark{color: var(--color-dark)!important;}
+.border-color-white{color: var(--color-white)!important;}
+.border-color-cozy{color: var(--color-cozy)!important;}
