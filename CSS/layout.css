@@ -1,0 +1,14 @@
+.bar-height{
+    height: 0.3rem;
+}
+
+.max-widht{
+    max-width: 155rem;
+}
+
+.mr-auto, .mx-auto {margin-right: auto;}
+.ml-auto, .mx-auto{margin-left: auto;}
+
+.logo-widht{max-width: 13rem;}
+
+.p-4 {padding:var(--distance-6);}

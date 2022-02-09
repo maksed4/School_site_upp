@@ -1,0 +1,20 @@
+/* показывает наш "див" горизантально вместе того чтобы быть друг на
+друге*/
+.d-flex{
+
+    display: flex;
+    
+}
+
+/* skappar linjer*/
+.flex-grow{
+    flex-grow: 1;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center; 
+}
