@@ -1,3 +1,4 @@
+/*colored bar*/
 .bar-height{
     height: 0.3rem;
 }
@@ -5,10 +6,73 @@
 .max-widht{
     max-width: 155rem;
 }
-
+ /**********Margin/*********************************/
 .mr-auto, .mx-auto {margin-right: auto;}
 .ml-auto, .mx-auto{margin-left: auto;}
+.mt-0, .my-0 {margin-top: var(--distance-0);}  /* 0 rem */
+.mt-0, .my-0 {margin-bottom: var(--distance-0);}
+.mt-1, .my-1 {margin-top: var(--distance-1);}   /* 0.25 rem */
+.mt-1, .my-1 {margin-bottom: var(--distance-1);}
+.mt-2, .my-2 {margin-top: var(--distance-2);}  /* 0.5 rem */ 
+.mt-2, .my-2 {margin-bottom:var(--distance-2);} 
+.mt-4, .my-4 {margin-top: var(--distance-4);}   /* 1rem */
+.mt-4, .my-4 {margin-bottom:var(--distance-4);} 
+.mt-6, .my-6 {margin-top: var(--distance-6);}  /* 1.5 rem */
+.mt-6, .my-6 {margin-bottom: var(--distance-6);}
+.mt-8, .my-8 {margin-top: var(--distance-8);}   /* 2rem */
+.mt-8, .my-8 {margin-bottom: var(--distance-8);}
+.mt-10, .my-10 {margin-top: var(--distance-10);}  /* 2.5rem */
+.mt-10, .my-10{margin-bottom: var(--distance-10);} 
+.mt-12, .my-12 {margin-top: var(--distance-12);}  /* 3 rem */
+.mt-12, .my-12 {margin-bottom: var(--distance-12);}
+.mt-15, .my-15 {margin-top: var(--distance-15);}  /* 3.75 rem */
+.mt-15, .my-15 {margin-bottom: var(--distance-15);}
 
+
+/* höjd för bilden*/
 .logo-widht{max-width: 13rem;}
 
-.p-4 {padding:var(--distance-6);}
+/*shadows på iconer*/
+.shadow-sm{box-shadow: var(--shadow-small-light);}
+
+.p-6 {padding:var(--distance-6);}
+.p-4{padding: var(--distance-4) ;}
+.p-2 {padding: var(--distance-2);}
+.p-3 {padding: var(--distance-3);}
+
+/* för att göra icons runda */
+.circle{border-radius: 50%;}
+
+/*ta bort understrekt under iconen
+**************TYpography*******/
+.text-decoration{text-decoration: none;}
+
+.text-size-xxs {font-size: var(--display-xxs);}
+.text-size-xs {font-size: var(--display-xs);}
+.text-size-sm {font-size: var(--display-sm);}
+.text-size-md {font-size: var(--display-md);}
+.text-size-lg {font-size: var(--display-lg);}
+.text-size-xl {font-size: var(--display-xl);}
+.text-size-xxl {font-size: var(--display-xxl);}
+
+.lh-sm {line-height: var(--line-height-sm);}
+.lh-md {line-height: var(--line-height-md);}
+.lh-lg {line-height: var(--line-height-lg);}
+
+/* buttons alla förutom första div(first child)*******************/
+nav div a:not(:first-child) {margin-left: var(--distance-12);}
+.icon-badge {
+    top: -8px;
+    right:-8px;
+    padding: var(--distance-1) var(--distance-3);
+}
+
+/*borders**********/
+.border-small-white{border: var(--border-xs-white);}
+.border-radius {border-radius: var(--border-radius-sm);}
+.border-bottom-xs { border-bottom:var(--border-xs);}
+
+/*positioner för köpkorg**********************/
+
+.position-relative { position: relative !important;}
+.position-absolute { position: absolute !important;}

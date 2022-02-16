@@ -1,11 +1,11 @@
 :root{
     --color-primary:#a597e7;
     --color-secondary:#6c757d;
-    --color-success:rgb(235, 235, 45);
-    --color-info:rgb(40, 212, 212);
+    --color-success:rgb(166, 230, 17);
+    --color-info:rgb(8, 166, 240);
     --color-warning:orange;
     --color-danger:red;
-    --color-light:white;
+    --color-light: #f8f9fa;
     --color-dark:black;
     --color-white:white;
     --color-cozy:rgb(252, 158, 173);
@@ -33,12 +33,21 @@
     --distance-5: 1.25rem;
     --distance-6: 1.5rem;
     --distance-7: 1.75rem;
+    --distance-8: 2rem;
+    --distance-9: 2.25rem;
+    --distance-10: 2.5rem;
+    --distance-11: 2.75rem;
+    --distance-12: 3rem;
+    --distance-13: 3.25rem;
+    --distance-14: 3.5rem;
+    --distance-15: 3.75rem;
 
-    --shadow-small-light: .15rem .15rem 0 rgba(0, 0, .1);
+
+    --shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, 0.10);
     --shadow-large-light: .25rem .25rem 0 rgba(0, 0, .1); 
     
     --border-xs-white: 0.1rem solid var(--color-white);
-    --border-xs: .1rem solid var(var(--color-light));
+    --border-xs: .1rem solid var(var(--color-danger));
     --borderd-sm: .2rem solid var(var(--color-light));
     --border-lg: .4rem solid var(var(--color-white));
 

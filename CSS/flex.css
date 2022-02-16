@@ -1,15 +1,22 @@
 /* показывает наш "див" горизантально вместе того чтобы быть друг на
 друге*/
 .d-flex{
-
     display: flex;
-    
 }
+.d-none { display: none;}
 
 /* skappar linjer*/
 .flex-grow{
     flex-grow: 1;
 }
+
+/* omvänt flex*/
+.flex-row-reverse {flex-direction: row-reverse;}
+
+
+/*fixa menu* så att den blir vertikal */
+.flex-row{flex-direction: row;}
+.flex-column{flex-direction: column;}
 
 .justify-content-between {
     justify-content: space-between;
@@ -18,3 +25,4 @@
 .align-items-center{
     align-items: center; 
 }
+
