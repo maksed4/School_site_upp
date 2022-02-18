@@ -4,33 +4,39 @@
 }
 
 .max-widht{
-    max-width: 155rem;
+    max-width: 192rem;
 }
  /**********Margin/*********************************/
 .mr-auto, .mx-auto {margin-right: auto;}
 .ml-auto, .mx-auto{margin-left: auto;}
 .mt-0, .my-0 {margin-top: var(--distance-0);}  /* 0 rem */
-.mt-0, .my-0 {margin-bottom: var(--distance-0);}
+.mb-0, .my-0 {margin-bottom: var(--distance-0);}
 .mt-1, .my-1 {margin-top: var(--distance-1);}   /* 0.25 rem */
-.mt-1, .my-1 {margin-bottom: var(--distance-1);}
+.mb-1, .my-1 {margin-bottom: var(--distance-1);}
 .mt-2, .my-2 {margin-top: var(--distance-2);}  /* 0.5 rem */ 
-.mt-2, .my-2 {margin-bottom:var(--distance-2);} 
+.mb-2, .my-2 {margin-bottom:var(--distance-2);} 
 .mt-4, .my-4 {margin-top: var(--distance-4);}   /* 1rem */
-.mt-4, .my-4 {margin-bottom:var(--distance-4);} 
+.mb-4, .my-4 {margin-bottom:var(--distance-4);} 
 .mt-6, .my-6 {margin-top: var(--distance-6);}  /* 1.5 rem */
-.mt-6, .my-6 {margin-bottom: var(--distance-6);}
+.mb-6, .my-6 {margin-bottom: var(--distance-6);}
 .mt-8, .my-8 {margin-top: var(--distance-8);}   /* 2rem */
-.mt-8, .my-8 {margin-bottom: var(--distance-8);}
+.mb-8, .my-8 {margin-bottom: var(--distance-8);}
 .mt-10, .my-10 {margin-top: var(--distance-10);}  /* 2.5rem */
-.mt-10, .my-10{margin-bottom: var(--distance-10);} 
+.mb-10, .my-10{margin-bottom: var(--distance-10);} 
 .mt-12, .my-12 {margin-top: var(--distance-12);}  /* 3 rem */
-.mt-12, .my-12 {margin-bottom: var(--distance-12);}
+.mb-12, .my-12 {margin-bottom: var(--distance-12);}
 .mt-15, .my-15 {margin-top: var(--distance-15);}  /* 3.75 rem */
-.mt-15, .my-15 {margin-bottom: var(--distance-15);}
+.mb-15, .my-15 {margin-bottom: var(--distance-15);}
 
+.mr-4, .mx-4 {margin-right: var(--distance-4);}
+.ml-4, .mx-4 {margin-left: var(--distance-4);}
+.mr-6, .mx-6 {margin-right: var(--distance-6);}
+.ml-6, .mx-6 {margin-right: var(--distance-6);}
+  
 
 /* höjd för bilden*/
 .logo-widht{max-width: 13rem;}
+.logo-widht-slide {width: 100%;}
 
 /*shadows på iconer*/
 .shadow-sm{box-shadow: var(--shadow-small-light);}
@@ -39,6 +45,10 @@
 .p-4{padding: var(--distance-4) ;}
 .p-2 {padding: var(--distance-2);}
 .p-3 {padding: var(--distance-3);}
+.p-1 {padding: var(--distance-10); }
+
+.pr, .px-12 {padding-right: var(--distance-12);}
+.pl, .px-12 {padding-left: var(--distance-12);}
 
 /* för att göra icons runda */
 .circle{border-radius: 50%;}
@@ -46,6 +56,7 @@
 /*ta bort understrekt under iconen
 **************TYpography*******/
 .text-decoration{text-decoration: none;}
+.text-center {text-align: center;}
 
 .text-size-xxs {font-size: var(--display-xxs);}
 .text-size-xs {font-size: var(--display-xs);}
@@ -72,7 +83,32 @@ nav div a:not(:first-child) {margin-left: var(--distance-12);}
 .border-radius {border-radius: var(--border-radius-sm);}
 .border-bottom-xs { border-bottom:var(--border-xs);}
 
-/*positioner för köpkorg**********************/
+/*positioner för **********************/
 
 .position-relative { position: relative !important;}
 .position-absolute { position: absolute !important;}
+.overflow-hidden {overflow: hidden;}
+
+.centerXY{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* absolut center av sidan*/
+}
+
+/*slide show***********/
+.slider-widht {width: 400%;  /* 100 % per image */ }
+.slider-container {width: 25%; /*display first of 4 images*/}
+.slider-image {width: 100%; object-fit: cover;}
+
+/*slider animation med css språk slideshow *******
+.slider-animation {animation: 30s slider-keyframes infinite;}
+@keyframes slider-keyframes {
+    0% {left: 0%;}
+    15% {left: -100%;}
+    30% {left: -200%;}
+    45% {left: -300%;}
+    60% {left: -200%;}
+    75% {left: -100%;}
+    100% {left: 0%;}
+
+}*/
