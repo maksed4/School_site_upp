@@ -11,7 +11,7 @@
     --color-cozy:rgb(252, 158, 173);
     --color-transparent:transparent;
     --color-border:#dee2e6;
-    --color-dark-trasnparent: rgba(12, 12, 12, 0.089);
+    --color-dark-trasnparent: rgba(0, 0, 0, 0.2);   
 
     --display-xxs: 1rem;
     --display-xs: 1.4rem;
@@ -47,13 +47,13 @@
     --shadow-large-light: .25rem .25rem 0 rgba(0, 0, .1); 
     
     --border-xs-white: 0.1rem solid var(--color-white);
-    --border-xs: .1rem solid var(var(--color-danger));
-    --borderd-sm: .2rem solid var(var(--color-light));
-    --border-lg: .4rem solid var(var(--color-white));
+    --border-xs: .1rem solid var(--color-light);
+    --borderd-sm: .2rem solid var(--color-light);
+    --border-lg: .4rem solid var(--color-white);
 
     --border-radius-sm: .25rem; 
     --border-success: .2rem solid var(--border-color-success);
-    --border-transparent: .1 solid var((--color-transparent));
+    --border-transparent: .1 solid var(--color-transparent);
 
 
  } 
