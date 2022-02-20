@@ -44,12 +44,13 @@
 
 
     --shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, 0.10);
-    --shadow-large-light: .25rem .25rem 0 rgba(0, 0, .1); 
+    --shadow-large-light: .25rem .25rem 0 rgba(0, 0, 0, 0.014); 
     
     --border-xs-white: 0.1rem solid var(--color-white);
     --border-xs: .1rem solid var(--color-light);
-    --borderd-sm: .2rem solid var(--color-light);
+    --border-sm: .2rem solid var(--color-light);
     --border-lg: .4rem solid var(--color-white);
+    
 
     --border-radius-sm: .25rem; 
     --border-success: .2rem solid var(--border-color-success);
