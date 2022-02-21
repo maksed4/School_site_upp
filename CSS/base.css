@@ -4,7 +4,7 @@
     --color-success:rgb(166, 230, 17);
     --color-info:rgb(8, 166, 240);
     --color-warning:orange;
-    --color-danger:red;
+    --color-danger:rgba(196, 32, 32, 0.651);
     --color-light: #f8f9fa;
     --color-dark:black;
     --color-white:white;

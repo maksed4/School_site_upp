@@ -13,7 +13,7 @@
 /* omvänt flex*/
 .flex-row-reverse {flex-direction: row-reverse;}
 
-/* flex för att som ändrar raden ifall det inte finns plats */
+/* flex  som ändrar raden ifall det inte finns plats */
 .flex-wpar { flex-wrap: wrap;}
 
 /*fixa menu* så att den blir vertikal */
