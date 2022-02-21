@@ -51,12 +51,14 @@
 /**************
 ****Padding****
 ***************/
-
+.p-8 {padding: var(--distance-8);}
 .p-6 {padding:var(--distance-6);}
 .p-4{padding: var(--distance-4) ;}
 .p-2 {padding: var(--distance-2);}
 .p-3 {padding: var(--distance-3);}
 .p-1 {padding: var(--distance-10); }
+.p-15 {padding: var(--distance-15);}
+
 
 .pr, .px-4 {padding-right: var(--distance-4);}
 .pl, .px-4 {padding-left: var(--distance-4);}
@@ -99,6 +101,7 @@ nav div a:not(:first-child) {margin-left: var(--distance-12);}
 .border-radius {border-radius: var(--border-radius-sm);}
 .border-bottom-xs { border-bottom:var(--border-xs);}
 .border-sm {border: var(--border-sm);}
+.border-transparent {border: var(--border-transparent);}
 
 /*positioner för **********************/
 
