@@ -18,7 +18,7 @@
 .mb-1, .my-1 {margin-bottom: var(--distance-1);}
 .mt-2, .my-2 {margin-top: var(--distance-2);}  /* 0.5 rem */ 
 .mb-2, .my-2 {margin-bottom:var(--distance-2);} 
-.mt-4, .my-4 {margin-top: var(--distance-4);}   /* 1rem */
+.mt-4, .my-4 {margin-top: var(--distance-4);}   /* 1rem */ 
 .mb-4, .my-4 {margin-bottom:var(--distance-4);} 
 .mt-6, .my-6 {margin-top: var(--distance-6);}  /* 1.5 rem */
 .mb-6, .my-6 {margin-bottom: var(--distance-6);}
@@ -61,6 +61,7 @@
 .p-3 {padding: var(--distance-3);}
 .p-1 {padding: var(--distance-10); }
 .p-15 {padding: var(--distance-15);}
+.p-12 {padding: var(--distance-12);}
 
 
 .pr, .px-4 {padding-right: var(--distance-4);}
@@ -70,6 +71,7 @@
 
 /* för att göra icons runda */
 .circle{border-radius: 100%;}
+.circle-lg {width: 13rem; height: 13rem;}
 .icon-circle {width: 6.2rem; height: 6.2rem; line-height: 6rem;}
 
 /*ta bort understrekt under iconen
