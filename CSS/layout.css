@@ -6,11 +6,15 @@
 .max-widht{
     max-width: 192rem;
 }
+/***Koret widht*/
+.card-widht {max-width: 60rem;}
+
  /**********Margin/*********************************/
 .mr-auto, .mx-auto {margin-right: auto;}
 .ml-auto, .mx-auto{margin-left: auto;}
 
 .m-4 {margin: var(--distance-4);}
+.m-6 {margin: var(--distance-6)}
 
 .mt-0, .my-0 {margin-top: var(--distance-0);}  /* 0 rem */
 .mb-0, .my-0 {margin-bottom: var(--distance-0);}
@@ -36,12 +40,13 @@
 .mr-6, .mx-6 {margin-right: var(--distance-6);}
 .ml-6, .mx-6 {margin-right: var(--distance-6);}
   
-
+ 
 /**************
 ****bredd för bilderna****
 ***************/
 .logo-widht{max-width: 13rem;}
 .logo-widht-slide {width: 100%;}
+.img-lg-widht { max-width: 60%;} /* FOR kort bilderna */
 .f-widht {width: 33%;} /* bredd för features icons**/
 .icon-feature {width: 7.6rem; height: 7.6rem; padding: 0.375rem;} /*icons ***/
 
@@ -90,6 +95,7 @@
 .lh-sm {line-height: var(--line-height-sm);}
 .lh-md {line-height: var(--line-height-md);}
 .lh-lg {line-height: var(--line-height-lg);}
+.lh-text {line-height: var();}
 
 /* buttons alla förutom första div(first child)*******************/
 nav div a:not(:first-child) {margin-left: var(--distance-12);}
