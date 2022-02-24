@@ -11,6 +11,8 @@
 .img-lg-widht { max-width: 60%;} /* FOR kort bilderna */
 .widht-lg {max-width: 50%;}
 
+.min-widht-xxl {width: 100%;}
+
 
 /***Koret widht*/
 .card-widht {max-width: 60rem;}
@@ -46,6 +48,11 @@
 .ml-4, .mx-4 {margin-left: var(--distance-4);}
 .mr-6, .mx-6 {margin-right: var(--distance-6);}
 .ml-6, .mx-6 {margin-right: var(--distance-6);}
+
+/*****
+/******För mobila plattor**********/
+
+
   
  
 /**************
@@ -54,7 +61,7 @@
 .logo-widht{max-width: 13rem;}
 .logo-widht-slide {width: 100%;}
 .img-lg-widht { max-width: 60%;} /* FOR kort bilderna */
-.f-widht {width: 33%;} /* bredd för features icons**/
+.f-widht {max-width: 33%;} /* bredd för features icons**/
 .icon-feature {width: 7.6rem; height: 7.6rem; padding: 0.375rem;} /*icons ***/
 
 /**************
@@ -90,6 +97,8 @@
 .circle{border-radius: 100%;}
 .circle-lg {width: 13rem; height: 13rem;}
 .icon-circle {width: 6.2rem; height: 6.2rem; line-height: 6rem;}
+
+.icon-form-control { right: -15px; top: 8px;} /*position absolute relativt till position relative* så att den blir i hörnet*/
 
 
 /*ta bort understrekt under iconen
@@ -128,6 +137,7 @@ nav div a:not(:first-child) {margin-left: var(--distance-12);}
 .border-sm {border: var(--border-sm);} /*circles*/
 .border-transparent {border: var(--border-transparent);}
 .border-lg {border: var(--border-lg);} /*circles*/
+.border-sm-success {border: var(--border-sm-success);}
 
 /*positioner för **********************/
 
@@ -146,7 +156,7 @@ nav div a:not(:first-child) {margin-left: var(--distance-12);}
 .slider-container {width: 25%; /*display first of 4 images*/}
 .slider-image {width: 100%; object-fit: cover;}
 
-/*slider animation med css språk slideshow *******
+/*slider animation med css språk slideshow ********/
 .slider-animation {animation: 30s slider-keyframes infinite;}
 @keyframes slider-keyframes {
     0% {left: 0%;}
@@ -157,7 +167,7 @@ nav div a:not(:first-child) {margin-left: var(--distance-12);}
     75% {left: -100%;}
     100% {left: 0%;}
 
-}*/
+}
 
 
 .statistics-image { 

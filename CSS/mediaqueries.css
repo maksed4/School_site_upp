@@ -1,0 +1,14 @@
+@media only screen and (max-width: 68.75em) { /* 1100px /16px = 68.75em */
+    html {font-size: 50%;}
+}
+
+@media screen and  (max-width: 56.25em) { /* 900px /16px = 56.25em */ 
+    .f-widht {max-width: 50% !important ;}
+}
+
+@media screen and  (max-width: 37.5em) { /* 900px /16px = 56.25em */ 
+    .f-widht {max-width: 100% !important ;}
+    .mb-sm-12 {margin-bottom: var(--distance-12);}
+    .d-sm-none {display: none !important;}
+}
+
