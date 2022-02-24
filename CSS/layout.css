@@ -98,7 +98,7 @@
 .circle-lg {width: 13rem; height: 13rem;}
 .icon-circle {width: 6.2rem; height: 6.2rem; line-height: 6rem;}
 
-.icon-form-control { right: -15px; top: 8px;} /*position absolute relativt till position relative* så att den blir i hörnet*/
+.icon-form-control { right: 15px; top: 10px;} /*position absolute relativt till position relative* så att den blir i hörnet*/
 
 
 /*ta bort understrekt under iconen
