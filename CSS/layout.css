@@ -3,9 +3,15 @@
     height: 0.3rem;
 }
 
-.max-widht{
-    max-width: 192rem;
-}
+/*****************
+*******Widht*******/
+
+.max-widht{ max-width: 192rem; }
+.logo-widht-slide {width: 100%;}
+.img-lg-widht { max-width: 60%;} /* FOR kort bilderna */
+.widht-lg {max-width: 50%;}
+
+
 /***Koret widht*/
 .card-widht {max-width: 60rem;}
 
@@ -15,6 +21,7 @@
 
 .m-4 {margin: var(--distance-4);}
 .m-6 {margin: var(--distance-6)}
+.m-15 {margin: var(--distance-15)}
 
 .mt-0, .my-0 {margin-top: var(--distance-0);}  /* 0 rem */
 .mb-0, .my-0 {margin-bottom: var(--distance-0);}
